@@ -22,7 +22,8 @@
 </html>
 
 <?php
-echo $_POST["username"]; 
-
+if(isset($_POST["username"])){
+	echo $_POST["username"]; 
+}
 
 ?>
